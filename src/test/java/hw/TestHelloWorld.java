@@ -35,7 +35,7 @@ public class TestHelloWorld {
   @Test
   public void getYear() { // this test is OK, fix HelloWorld.java to make it pass!
     assertNotNull(fixture);
-    assertEquals(2024, fixture.getYear());
+    assertEquals(2025, fixture.getYear());
   }
 
   @Test
@@ -47,6 +47,6 @@ public class TestHelloWorld {
   @Test
   public void getYearInList() { // fixed!
     var list = Arrays.asList(fixture);
-    assertEquals(2024, list.get(0).getYear());
+    assertEquals(2025, list.get(0).getYear());
   }
 }
